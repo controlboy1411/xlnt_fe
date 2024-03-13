@@ -1,0 +1,86 @@
+.transaction-main {
+    margin: 10px;
+}
+
+.transaction-main-select-plant {
+    width: 280px;
+    padding-top: 8px;
+}
+
+.transaction-main-date-picker {
+    width: 280px;
+}
+
+.transaction-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.transaction-table-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.transaction-table-name {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.transaction-button-download-popup {
+    width: 12rem;
+    height: auto;
+    margin: 0 5px 0 5px;
+}
+
+.transaction-icon-download {
+    margin-right: 10px;
+    width: 15px;
+    height: auto;
+}
+
+.transaction-download-content {
+    font-size: 16px;
+}
+
+.transaction-button-download {
+    width: 9rem;
+    height: auto;
+    margin: 0 5px 0 5px;
+}
+
+.transaction-modal {
+    z-index: 10000;
+}
+
+.transaction-custom-backdrop-modal {
+    z-index: 10000;
+}
+
+.transaction-loading-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.MuiPickersPopper-root {
+    z-index: 10001;
+}
+
+// .css-4jnixx-MuiStack-root {
+//     padding-top: 10px;
+// }
+
+// .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+//     padding: 12px 14px;
+// }
+
+@media screen and (max-width: 800px) {
+    .transaction-main-date-picker{
+        margin-top: 5px;
+    }
+}

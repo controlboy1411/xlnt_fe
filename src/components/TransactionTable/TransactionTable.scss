@@ -1,0 +1,23 @@
+@mixin convert-p-to-div {
+    display: block;
+    /* Chuyển thẻ <p> thành một khối (block-level element) */
+    margin: 0;
+    /* Loại bỏ khoảng cách trên và dưới */
+    padding: 0;
+    /* Loại bỏ padding (nếu có) */
+    border: none;
+    /* Loại bỏ viền (nếu có) */
+    background-color: transparent;
+}
+
+.MuiTablePagination-selectLabel {
+    @include convert-p-to-div;
+}
+
+.MuiTablePagination-displayedRows {
+    @include convert-p-to-div;
+}
+
+.css-dwuj3p-MuiTableCell-root {
+    padding: 14px;
+}

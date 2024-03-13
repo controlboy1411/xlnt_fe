@@ -1,0 +1,24 @@
+@mixin header-title-name {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.header-title-name-1 {
+    @include header-title-name;
+    font-size: 26px;
+}
+
+.header-title-name-2 {
+    @include header-title-name;
+    font-size: 20px;
+}
+
+.header-logo {
+    cursor: pointer;
+    width: 85px;
+    height: 85px;
+}

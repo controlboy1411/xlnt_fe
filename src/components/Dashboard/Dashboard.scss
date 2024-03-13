@@ -1,0 +1,92 @@
+.dashboard-main {
+    margin-bottom: 10px;
+}
+
+.dashboard-main-select-plant {
+    width: 280px;
+}
+
+.dashboard-title-name {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.dashboard-loading-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+}
+
+.dashboard-chart-board {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.dashboard-board {
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 450px;
+    padding: 0 20px 0 20px;
+    background-color: white;
+}
+
+.dashboard-chart {
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    min-height: 450px;
+    padding: 0 20px 0 20px;
+    background-color: white;
+}
+
+.icon-warning {
+    margin-right: 15px;
+    width: 22px;
+    height: auto;
+}
+
+.modal-warning-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-popup-warning {
+    z-index: 2000 !important;
+}
+
+.dashboard-popup-warning-backdrop {
+    z-index: 1500 !important;
+}
+
+@media screen and (max-width: 800px) {
+    .dashboard-board {
+        height: 350px !important;
+    }
+
+    .dashboard-chart {
+        height: 350px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dashboard-board {
+        height: 300px !important;
+    }
+
+    .dashboard-chart {
+        height: 300px !important;
+    }
+}

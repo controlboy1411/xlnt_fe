@@ -1,0 +1,41 @@
+.footer-container-0 {
+    border-radius: 5px;
+    padding: 24px 16px;
+    margin-top: auto;
+    background-color: #259944;
+}
+
+.footer-container-1 {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footer-content {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: white;
+    text-align: center;
+    text-wrap: balance;
+}
+
+@media screen and (min-width: 600px) {
+    .footer-container-1 {
+        padding-left: 24px;
+        padding-right: 24px;
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .footer-content {
+        font-size: 14px;
+    }
+}
